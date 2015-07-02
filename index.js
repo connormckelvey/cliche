@@ -6,4 +6,8 @@ app.command('git', {
 	prompt: 'prompts/init'
 });
 
+app.controller('test', function(){
+	console.log('lolasdasdasdasds');
+});
+
 app.start();
