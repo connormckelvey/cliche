@@ -1,2 +1,2 @@
-var app = require('./lib/cliche');
-app.run();
+'use strict';
+module.exports = require('./lib/cliche');
